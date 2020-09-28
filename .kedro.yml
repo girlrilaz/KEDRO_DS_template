@@ -1,0 +1,6 @@
+context_path: kedro_iris_package.run.ProjectContext
+project_name: "Iris data analysis"
+project_version: "0.16.5"
+package_name: "kedro_iris_package"
+hooks:
+  - kedro_iris_package.hooks.project_hooks
